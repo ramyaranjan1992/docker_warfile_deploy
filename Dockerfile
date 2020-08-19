@@ -8,4 +8,4 @@ FROM tomcat:8.5
 LABEL "Maintainer"="Ramya"
 
 # Copy the following directory
-COPY docker-spring-mvc.war /usr/local/tomcat/webapps/docker-spring-mvc.war
+COPY challan.war /usr/local/tomcat/webapps/docker-spring-mvc.war
